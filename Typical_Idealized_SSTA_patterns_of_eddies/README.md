@@ -13,3 +13,5 @@ Here I show [MATLAB script]() code for generating typical idealized monopole/dip
 Believe it or not, it is generated it from [Taijitu / yin-yang symbol / taichi symbol](https://www.wikiwand.com/en/Taijitu), not based on equations. I first set the values on the outermost periphery and the frontier between white side and black side to zero. Secondly, I set the values fall within the black dot to -1 and set the values fall with in the white dot to 1. Then the values between outermost periphery and two dots were simply interpolated.
 
 ![](https://github.com/chouj/SSTA_Signature_of_Mesoscale_Eddy/blob/master/Typical_Idealized_SSTA_patterns_of_eddies/DipolePatternBasedonTaiji.png?raw=true)
+
+I've uploaded it as [`Taiji_DipolePattern_inpaint_nans_3.mat`](https://github.com/chouj/SSTA_Signature_of_Mesoscale_Eddy/blob/master/Typical_Idealized_SSTA_patterns_of_eddies/Taiji_DipolePattern_inpaint_nans_3.mat). You can use it for free.
