@@ -2,9 +2,11 @@
 
 # How to generate typical idealized Sea Surface Temperature Anomaly (SSTA) for an oceanic mesoscale eddy
 
-Here I show [MATLAB script](https://github.com/chouj/SSTA_Signature_of_Mesoscale_Eddy/blob/master/Typical_Idealized_SSTA_patterns_of_eddies/taiji_dipole_patterm.m) for generating typical idealized monopole/dipole SSTA pattern for "drift"/"swirl" eddy. I use this idealized pattern as a standard and a reference. Thus, I'm able to calculate cross-correlation between it and every individual eddy's SSTA pattern obtained from satellite observation.
+Here I show a [MATLAB script](https://github.com/chouj/SSTA_Signature_of_Mesoscale_Eddy/blob/master/Typical_Idealized_SSTA_patterns_of_eddies/taiji_dipole_patterm.m) for generating typical idealized monopole/dipole SSTA pattern for "drift"/"swirl" eddy. I use this idealized pattern as a standard / reference. Thus, I'm able to calculate cross-correlation between it and every individual eddy's SSTA pattern obtained from satellite observations.
 
-"Drift" eddy stands for an eddy which has trapped SSTA signal within their core. While, "Swirl" eddy means the large-scale SST gradient has been modified due to eddy's rotation / advection.
+"Drift" eddy stands for an eddy which has trapped SSTA signal within its core. While, "Swirl" eddy means the large-scale SST gradient has been modified due to eddy's rotation / advection. The sketching for the mechanism of "Swirl" eddy is shown below.
+
+![](https://github.com/chouj/SSTA_Signature_of_Mesoscale_Eddy/blob/master/Typical_Idealized_SSTA_patterns_of_eddies/swirleddy_altering_SST_gradient_sketching.gif)
 
 ## Scenario 1: Idealized monopole pattern for "Drift" eddy
 
